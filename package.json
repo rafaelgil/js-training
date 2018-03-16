@@ -1,0 +1,19 @@
+{
+  "name": "js-training",
+  "version": "1.0.0",
+  "description": "js training",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watchAll"
+  },
+  "author": "eduardogardin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.4"
+  }
+}
