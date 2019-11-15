@@ -1,7 +1,7 @@
 import { surgimento, caracteristicas, caseSensitiveBehavior } from './historia';
 
 describe('História do Javascript', () => {
-
+    
     it('surgimento ', () => {
         expect(surgimento.ano).toEqual(1995);
         expect(surgimento.descricao).toEqual('Javascript');
